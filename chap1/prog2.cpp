@@ -1,6 +1,6 @@
 #include <iostream>
 
-//打印两个数的乘积
+//练习1.4 打印两个数的乘积
 void oneForm(){
     std::cout << "Enter two numbers:" << std::endl;
     int a=0,b=0;
@@ -8,7 +8,7 @@ void oneForm(){
     std::cout << "The product of " << a << " and " << b << " is " << a*b << std::endl;
 }
 
-//打印两个数的乘积的另一种  等效的形式  ，将每个运算对象的打印操作或接受键盘输入的操作放在一条独立的语句中。
+//练习1.5 打印两个数的乘积的另一种  等效的形式  ，将每个运算对象的打印操作或接受键盘输入的操作放在一条独立的语句中。
 void equivalentForm(){
     std::cout << "Enter two numbers:" << std::endl;
     int a=0,b=0;
@@ -23,7 +23,7 @@ void equivalentForm(){
     std::cout << a*b << std::endl;
 }
 
-//判断程序语句合法性
+//练习1.6 判断程序语句合法性
 void judgeValidity(){
     //------wrong statements as follow------
     //int a=1,b=3;
