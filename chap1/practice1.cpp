@@ -43,7 +43,7 @@ void comment() {
     std::cout << "/*" << "\n";
     std::cout << "*/" << "\n";
     //invalid output statements
-    std::cout << /* "*/" */;
+    //std::cout << /* "*/" */;
 }
 
 int main(){
