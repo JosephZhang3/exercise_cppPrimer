@@ -38,9 +38,18 @@ void judgeValidity(){
     std::cout << " is " << a+b << std::endl;
 }
 
+//练习 1.8
+void comment() {
+    std::cout << "/*" << "\n";
+    std::cout << "*/" << "\n";
+    //invalid output statements
+    std::cout << /* "*/" */;
+}
+
 int main(){
     oneForm();
     equivalentForm();
     judgeValidity();
+    comment();
     return 0; 
 }
