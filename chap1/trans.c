@@ -23,4 +23,10 @@ int main() {
     printf("%d\n", ui);// output -2147483648 突变负数(刚好越过边界值)
     printf("%d\n", ty);// 套用书上公式，当 2200000000 > 2^31 -1 ，计算 2200000000 -2^32 得到 -2094967296
     printf("%d\n", tyPlus);// -1794967296 证明是递增的
+
+    int x = -1;
+    unsigned u = 2147483648;// just is 2^31
+
+    printf("x = %d = %u\n", x, x);
+    printf("u = %d = %u\n", u, u);
 }
